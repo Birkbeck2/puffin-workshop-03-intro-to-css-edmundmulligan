@@ -1,0 +1,79 @@
+/* Basic CSS styles for the Introduction to CSS Workshop */
+
+/* set global styles  for the body of the html document*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rosybrown;
+    color: red;
+}
+
+/* style the main content area */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* center the header text */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: lightgreen
+}
+
+/* Use Verdana for paragraph text and set color to dark green */
+p { 
+	font-family: Verdana,Geneva,sans-serif; 
+    color: darkgreen;
+
+}
+
+/* Style for the workshop title */
+.workshopTitle {
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.link {
+    text-decoration: overline;
+    color: blue;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+#highlight-1 {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#highlight-2 {
+    background-color: lightgreen;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#highlight-3 {
+    background-color: cyan;
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+#highlight-4 {
+    background-color: magenta;
+    font-style: italic;
+}
+
+#bigger:hover {
+    font-size: 3em;
+}
