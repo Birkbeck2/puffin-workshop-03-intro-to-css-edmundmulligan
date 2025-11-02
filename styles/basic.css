@@ -1,0 +1,133 @@
+/* Basic CSS styles for the Introduction to CSS Workshop */
+
+/* set global styles  for the entire body of the html document*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: red;
+    /* Web Witchcraft and Wizardry logo, photo by Dollar Gill on unsplash.com */
+    background-image: url('../images/dollar-gill-0V7_N62zZcU-unsplash.png');
+    background-size: 100% 100%;
+     background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* style the main content area */
+main {
+    max-width: 80%;
+    /* use percentages for margin so if window is resized the text in the background is still visible */
+    margin: 0 auto 7% 30%;
+    padding: 20px;
+    background-color: white;
+    /* I like rounded corners & shadows */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* center the header text */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* this is ugly and doesn't blend with the background image, but at least it can be seen */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: black;
+    background-color: white;
+    margin-top: 40px;
+}
+
+h1, h2 {
+    color: lightgreen
+}
+
+/* Use Verdana for paragraph text and set color to dark green */
+p { 
+	font-family: Verdana,Geneva,sans-serif; 
+    /* override the body color */
+    color: darkgreen;
+
+}
+
+/* Style for the workshop title */
+.workshopTitle {
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.link {
+    /* overlining and underlining is gratuitous, but I CAN DO IT! */
+    text-decoration: overline underline;
+    color: blue;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+#highlight-1 {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#highlight-2 {
+    background-color: lightgreen;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#highlight-3 {
+    background-color: cyan;
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+#highlight-4 {
+    background-color: magenta;
+    font-style: italic;
+}
+
+/* This is just annoying. Don't hover over this span */
+#bigger:hover {
+    font-size: 3em;
+}
+
+.list-title {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+
+.list-div {
+    background-color: lightgray;
+    padding: 0.8em;
+    border-radius: 0.5em;
+    flex: 1;
+    width: 30%;
+    border: 0.2em dashed black;
+}
+
+.list-div ul {
+    list-style-type: square;
+    padding-left: 1.5em;
+    margin: 0
+}
+
+/* Bad Designer! This will number the unordered sublist elements */
+.list-div ul ul {
+    list-style-type: lower-roman;
+    padding-left: 1.5em;
+    margin: 0
+}
+
