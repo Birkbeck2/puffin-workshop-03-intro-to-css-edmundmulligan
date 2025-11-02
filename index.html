@@ -7,8 +7,14 @@
   <meta name="author" content="Edmund Mulligan">
   <meta name="license" content="MIT License">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/basic.css">
+
+  <!-- Set the document title -->
   <title>Introduction to CSS Workshop</title>
+  
+  <!-- Link to load a CSS stylesheet -->
+  <link rel="stylesheet" href="styles/basic.css">
+  <!-- End CSS stylesheet link -->
+
   <!--Links for Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +24,7 @@
 <body>
   <header>
     <h1 class="workshopTitle">Welcome to the Introduction to CSS Workshop!</h1>
+    <h2 class="workshopTitle">Using pseudoSagen gobbledegook</h2>
   </header>
   <main>
     <p>
@@ -51,14 +58,50 @@
       vanquish the impossible and billions upon billions upon billions upon billions 
       upon billions upon billions upon billions.
     </p>
-    <div>
+    <p class="list-title">Here are some cut out and keep lists</p>
 
-    </div>
-    <div>
+    <div class="list-container">
+      <div class="list-div">
+        <ul>
+          <li>First item in a list</li>
+          <li>Second item in a list</li>
+          <li>Third item in a list</li>
+          <li>Fourth item in a list</li>
+          <li>Fifth item in a list</li>
+        </ul>
+      </div>
 
-    </div>
-    <div>
+      <div class="list-div">
+        <ul>
+          <li>First item in a second list</li>
+          <li>Second item in a second list</li>
+          <li>Third item consisting of a sublist
+            <ul>
+              <li>First item in a sublist</li>
+              <li>Second item in a sublist</li>
+              <li>Third item in a sublist</li>
+            </ul>
+          </li>
+          <li>Fourth item with another sublist
+            <ol>
+              <li>First item in an ordered sublist</li>
+              <li>Second item in an ordered sublist</li>
+              <li>Third item in an ordered sublist</li>
+            </ol>
+          </li>
+          <li>Fifth item in a second list</li>
+        </ul>
+      </div>
 
+      <div class="list-div">
+        <ol reversed>
+          <li>First item in an ordered countdown list</li>
+          <li>Second item in an ordered countdown list</li>
+          <li>Third item in an ordered countdown list</li>
+          <li>Fourth item in an ordered countdown list</li>
+          <li>Fifth item in an ordered countdown list</li>
+        </ol>
+      </div>
     </div>
   </main>
   <footer>
